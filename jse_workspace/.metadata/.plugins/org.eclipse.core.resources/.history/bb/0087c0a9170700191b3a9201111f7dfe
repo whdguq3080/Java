@@ -1,0 +1,12 @@
+package car;
+
+public interface CarService {
+	/**
+	 * 판매할 차량을 입고시킨다.
+	 */
+	public void add();
+	public void list();
+	public void find();
+	public void sell();
+	
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#left {
+    grid-column-start: 1;
+    grid-column-end: 3;
+     font-family: Malgun Gothic;
+}
+#right {
+    grid-column-start: 3;
+    grid-column-end: 5;
+        font-family: Malgun Gothic;
+}

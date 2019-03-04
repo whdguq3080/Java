@@ -1,0 +1,60 @@
+package bank33;
+import javax.swing.JOptionPane;
+
+public class MemberServiceImpl implements MemberService{
+	private MemberBean[] members; 
+	private int count;
+	
+	MemberServiceImpl(){
+		this.members = new MemberBean[10];
+		this.count = 0;
+	}
+	
+	@Override
+	public void join(String id,String pass,String name,String ssn){
+		MemberBean member = new MemberBean();
+		member.setId(id);
+		member.setPass(pass);
+		member.setName(name);
+		member.setSsn(ssn);
+		members[count]= member;
+		count++;
+	}
+	@Override
+	public MemberBean[] list() {
+		// TODO Auto-generated method stub
+		return members;
+	}
+
+	@Override
+	public MemberBean find(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean login(String id, String pass) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public int count() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+	}
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+}

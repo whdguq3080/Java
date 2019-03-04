@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package controller;
+
+import javax.swing.JOptionPane;
+
+import domain.AdminBean;
+import service.AdminService;
+import service.AdminServiceImpl;
+
+/**
+ * @author Lee Jong-Hyup
+ * @date 2018. 12. 28.
+ * @dese
+ * 
+ */
+public class AdminController {
+	public void Start() {
+		AdminBean adminBean = null;
+		AdminService adminService = new AdminServiceImpl();
+		
+		while(true) {
+			//--------------------------------------
+			switch(JOptionPane.showInputDialog("[관리자]\n"
+					+ "1. 관리자등록\n"
+					+ "2. 관리자목록\n"
+					+ "3. 관리자 권한조회\n"
+					+ "4. 관리자번호 조회\n"
+					+ "5. 관리자 인원수\n"
+					+ "6. 관리자번호 체크\n"
+					+ "7. 관리자권한 조정\n"
+					+ "8. 관리자삭제\n")) {
+			case "0":JOptionPane.showMessageDialog(null,"시스템 종료");
+					 return;
+			case "1":String name = JOptionPane.showInputDialog("이름");
+					 String pass = JOptionPane.showInputDialog("비번");
+					 String auth = JOptionPane.showInputDialog("직위");
+					adminService.registerEmployee(adminNum, pass, auth);		 
+			}
+		}
+	}
+}

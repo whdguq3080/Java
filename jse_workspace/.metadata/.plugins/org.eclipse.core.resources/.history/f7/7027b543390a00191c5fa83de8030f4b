@@ -1,0 +1,12 @@
+package index;
+
+import controller.MemberController;
+import domain.MemberBean;
+import service.MemberService;
+import service.MemberServiceImpl;
+
+public class Index {
+	public static void main(String[] args) {
+		new MemberController().start();
+	}
+}

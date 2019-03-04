@@ -1,0 +1,35 @@
+package bank33;
+/**
+ * *
+데이터 핸들링 종류    (CRUD) 
+추가 Create         -set - void
+조회(findAll)  목록   list       READ   -get - object
+조회(findSome) findByName 
+조회(findOne)  findByID   검색 find   READ   -get - object
+조회(count)    카운트 count      READ   -get-  String
+조회(exist) exist - Read - get - boolean 
+수정 (update)        -set- void
+삭제 (delete)        -set- void *
+ */
+public interface MemberService {
+	// 회원가입
+	public void join(String id, String pass, String name, String ssn);
+	// =================================
+	// 목록보기 findAll
+	public MemberBean[] findAll();
+	// 검색 some
+	public MemberBean[] findByName(String name);
+	// 검색 one
+	public MemberBean findById(String id);
+	// 검색 exist
+	public boolean exist(String id, String pass);
+	// 검색 count
+	public String count();
+	// =================================================
+	// 수정 update
+	public void update(String id, String pass, String newPass);
+	// =================================================
+	// 삭제 delete
+	public void delete(String id, String pass, String name, String ssn);
+
+}

@@ -1,0 +1,88 @@
+/**
+ * 
+ */
+package service;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import domain.AdminBean;
+
+/**
+ * @author Lee Jong-Hyup
+ * @date 2018. 12. 27.
+ * @dese
+ * 
+ */
+public class AdminServiceImpl implements AdminService{
+	private	HashMap<String,AdminBean> map;
+	private int seq;
+	/**
+	 * 
+	 */
+	public AdminServiceImpl() {
+		map = new HashMap<>();
+		seq = 0;
+	}
+	@Override
+	public void createAdmin(String name, String pass, String auth) {
+		AdminBean admin = new AdminBean();
+		admin.setAdminNum(String.valueOf(seq));
+		admin.setAuth("staff"); // staff 사원..일단은 디폴트
+		admin.setName(name);
+		admin.setPass(pass);
+		map.put(admin.getAdminNum(),admin);
+		seq++;
+	}
+
+	@Override
+	public ArrayList<AdminBean> list() {
+		return (ArrayList<AdminBean>) map.values();
+	}
+
+	@Override
+	public ArrayList<AdminBean> findByAuth(String auth) {
+		ArrayList<AdminBean> list = new ArrayList<>();
+		//보류
+		return list;
+	}
+	
+
+	@Override
+	public AdminBean findById(String adminNum) {
+		return map.get(adminNum);
+	}
+
+	@Override
+	public int countAdmin() {
+		return map.size();
+	}
+
+	@Override
+	public boolean existAdmin(String adminNum, String pass) {
+		return map.containsKey(adminNum);
+	}
+
+	@Override
+	public void updatePass(String adminNum, String pass, String newPass) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateAuth(String adminNum, String auth) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteAdmin(String adminNum) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+}

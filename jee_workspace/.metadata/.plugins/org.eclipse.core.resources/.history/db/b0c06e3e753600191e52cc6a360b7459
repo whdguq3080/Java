@@ -1,0 +1,60 @@
+@charset "UTF-8";
+#nav{
+    grid-column-start: 1;
+    grid-column-end: 5;
+     font-family: fantasy;
+}
+#side_menu{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-family: fantasy;
+}
+#content{
+    grid-column-start: 2;
+    grid-column-end: 5;
+     font-family: fantasy;
+}
+#cust_tab {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+ font-family: fantasy;
+}
+#cust_tab td, th {
+  border: 1px solid #97baee;
+  text-align: left;
+  padding: 8px;
+ font-family: fantasy;
+}
+#cust_tab tr:nth-child(even) {
+  background-color: #83bbfa;
+   font-family: fantasy;
+}
+.center {
+  text-align: center;
+       font-family: fantasy;
+}
+.pagination {
+  display: inline-blue;
+       font-family: fantasy;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #97baee;
+  margin: 0 4px;
+      font-family: fantasy;
+}
+.pagination a.active {
+  background-color: #b0e2f2;
+  color: white;
+  border: 1px solid #b0e2f2;
+      font-family: fantasy;
+}
+.pagination a:hover:not(.active) {
+    background-color: #b0e2f2;
+     font-family: fantasy;
+}

@@ -1,0 +1,16 @@
+package service;
+
+import java.util.List;
+
+import domain.CategoryDTO;
+
+public interface CategoryService {
+	public void registCategorie(CategoryDTO cat);
+	public List<?> bringCategorieList(CategoryDTO cat); 
+	public List<CategoryDTO> retrieveCategorie(String searchWord);
+	public CategoryDTO retrieveCategories(String searchWord);
+	public int countCategorie();
+	public boolean existsCategorie(String searchword);
+	public void modifyCategorie(CategoryDTO cat);
+	public void removeCategorie(CategoryDTO cat);
+}

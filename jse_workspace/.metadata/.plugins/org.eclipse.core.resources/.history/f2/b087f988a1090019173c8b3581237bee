@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package domain;
+
+/**
+ * @author Lee Jong-Hyup
+ * @date 2018. 12. 27.
+ * @dese
+ * 
+ */
+public class AdminBean {
+	private String adminNun,pass,auth;
+
+	@Override
+	public String toString() {
+		return "관리자 [adminNun=" + adminNun + ", pass=" + pass + ", auth=" + auth + "]";
+	}
+	
+	
+	
+}

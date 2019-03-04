@@ -1,0 +1,9 @@
+package service;
+/**
+ * @author Lee Jong-Hyup
+ * @date 2018. 12. 26.
+ * @dese 은행 계좌 서비스
+ * 
+ */
+public interface AccountService {
+}

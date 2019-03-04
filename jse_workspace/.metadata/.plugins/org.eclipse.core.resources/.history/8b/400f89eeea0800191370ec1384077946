@@ -1,0 +1,32 @@
+package service;
+
+public interface MemberService {
+	/**
+	 * all
+	 * some
+	 * one
+	 * num
+	 * true
+	 */
+	/**
+	 * CREATE
+	 */
+	public void info(String id,String name,String ssn,String pass);
+	/**
+	 * READ
+	 */
+	public void findAll(String id,String pass);
+	public void findMember(String id);
+	public void findById(String id,String pass);
+	public void	memberList(String id);
+	public void	memberFind(String id,String pass);
+	/**
+	 * UPDATE
+	 */
+	public void update(String id,String name,String ssn,String pass);
+	/**
+	 * DELETE
+	 */
+	public void delete(String id,String pass);
+	
+}

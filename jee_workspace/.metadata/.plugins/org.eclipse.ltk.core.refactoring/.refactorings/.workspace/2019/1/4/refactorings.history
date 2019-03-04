@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BitShop_v2&apos; to &apos;BitTrader&apos;" description="Rename resource &apos;BitShop_v2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BitShop_v2" name="BitTrader" stamp="1548377843246" updateReferences="true"/>
+</session>

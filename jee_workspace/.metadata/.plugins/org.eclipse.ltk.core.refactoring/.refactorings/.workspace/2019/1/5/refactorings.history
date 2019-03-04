@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;BitTrader&apos; to &apos;BitRetailCompany&apos;" description="Rename resource &apos;BitTrader&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BitTrader" name="BitRetailCompany" stamp="1548672110691" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;BitRetailCompany2&apos; to &apos;BitRetail&apos;" description="Rename resource &apos;BitRetailCompany2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BitRetailCompany2" name="BitRetail" stamp="1548828056289" updateReferences="true"/>
+</session>

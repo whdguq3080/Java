@@ -1,0 +1,38 @@
+package bank32;
+
+import bank31.MemberBean;
+import bank31.MemberService;
+
+public class MemberSeviceImpl implements MemberService{
+
+	@Override
+	public MemberBean join(String id, String name, String pass, String ssn) {
+		MemberBean member = new MemberBean();
+		member.setId(id);
+		member.setPass(pass);
+		member.setName(name);
+		member.setSsn(ssn);
+		
+		return member;
+	}
+
+	@Override
+	public void login() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

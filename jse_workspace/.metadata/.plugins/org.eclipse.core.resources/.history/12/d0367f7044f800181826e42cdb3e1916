@@ -1,0 +1,19 @@
+package day6;
+import java.util.Scanner;
+import java.util.Scanner;
+public class Menu {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int select = scanner.nextInt();
+		while(true) {
+			if(select ==1) {
+				System.out.println("진행");
+			}else {
+				System.out.println("스톱");
+			}
+		}
+
+	}
+
+}

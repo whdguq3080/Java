@@ -1,0 +1,16 @@
+[섹션01] 자바 튜토리얼 바로가기
+https://docs.oracle.com/javase/tutorial/
+
+
+[섹션 02] 클래스패스 에러 잡기.
+
+윈키 + Break 
+> 고급시스템 설정
+> 환경변수 클릭
+> 새로만들기 클릭
+> JAVA_HOME
+> jdk 까지 경로
+> path 에 %JAVA_HOME%/bin 추가
+
+[섹션02] Getting Start !!
+main 메소드가 Entry Point(진입점) 이다.

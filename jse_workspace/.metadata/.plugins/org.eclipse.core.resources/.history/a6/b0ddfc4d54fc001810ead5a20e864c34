@@ -1,0 +1,34 @@
+package day9;
+import java.util.Random;
+
+public class LottoNumberGen {
+	public void test() {
+		//Lotto 6개의 랜덤숫자.
+		//1~45까지 랜덤 숫자.
+		Random random = new Random();
+		int[] lotto = new int[6];
+		int add = 0;
+		for(int i=0; i<=45; i++) {
+		String sel="";
+		System.out.print(i+",");
+		while(true) 
+			switch(sel) {
+			case"0":System.out.println(random); return;
+			case"1":System.out.println(random); return;
+			case"2":System.out.println(random); return;
+			case"3":System.out.println(random); return;
+			case"4":System.out.println(random); return;
+			case"5":System.out.println(random); break;
+			}
+	
+		
+		
+		}
+		
+		
+	}
+public static void main(String[] args) {
+		LottoNumberGen gen = new LottoNumberGen();
+					gen.test();
+	}
+}

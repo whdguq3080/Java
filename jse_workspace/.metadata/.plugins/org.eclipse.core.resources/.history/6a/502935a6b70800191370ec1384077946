@@ -1,0 +1,12 @@
+package domain;
+
+import javax.swing.JOptionPane;
+
+public class AccountBean {
+	public static void main(String[] args) {
+		while(true) {
+
+			}
+		}
+	}
+

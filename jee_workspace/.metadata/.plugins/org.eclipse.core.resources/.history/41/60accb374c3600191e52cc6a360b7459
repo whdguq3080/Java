@@ -1,0 +1,58 @@
+@charset "UTF-8";
+#nav{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-face: Webdings;
+}
+#side_menu{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-face: Webdings;
+}
+#content{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-face: Webdings;
+}
+#cust_tab {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-face: Webdings;
+}
+#cust_tab td, th {
+  border: 1px solid #97baee;
+  text-align: left;
+  padding: 8px;
+  font-face: Webdings;
+}
+#cust_tab tr:nth-child(even) {
+  background-color: #83bbfa;
+}
+.center {
+  text-align: center;
+}
+.pagination {
+  display: inline-blue;
+  font-face: Webdings;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #97baee;
+  margin: 0 4px;
+  font-face: Webdings;
+}
+.pagination a.active {
+  background-color: #b0e2f2;
+  color: white;
+  border: 1px solid #b0e2f2;
+  font-face: Webdings;
+}
+.pagination a:hover:not(.active) {
+    background-color: #b0e2f2;
+    font-face: Webdings;
+}

@@ -1,0 +1,15 @@
+package index;
+
+import controller.BankController;
+import domain.MemberBean;
+import service.MemberService;
+import service.MemberServiceImpl;
+
+public class Index {
+	public static void main(String[] args) {
+		BankController controller = new BankController();
+		new BankController().start();
+		MemberBean member = null;
+		MemberService service = new MemberServiceImpl();
+	}
+}

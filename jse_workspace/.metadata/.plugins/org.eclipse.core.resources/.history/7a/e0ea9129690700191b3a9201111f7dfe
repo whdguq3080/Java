@@ -1,0 +1,60 @@
+package tutorial;
+
+import bank33.MemberBean;
+
+public class MemberServiceImpl implements MemberService{
+	private MemberBean[] members;
+	private int	count;
+	MemberServiceImpl() {
+		 members = new MemberBean[10];
+		 count = 0;
+	}
+	@Override
+	public void join(String id, String pass, String name, String ssn) {
+		MemberBean member = new MemberBean();
+		member.setId(id);
+		member.setPass(pass);
+		member.setName(name);
+		member.setSsn(ssn);
+		members[count]= member;
+		count++;
+		}
+	
+
+	@Override
+	public MemberBean[] list() {
+		return members;
+	}
+
+	@Override
+	public void find() {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public void login() {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public void count() {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+}

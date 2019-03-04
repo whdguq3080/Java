@@ -1,0 +1,68 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import enums.Vendor;
+import factory.DatabaseFactory;
+import proxy.Proxy;
+
+public class CategoryDAOImpl implements CategoryDAO{
+	private Connection conn;
+	public static CategoryDAOImpl instance = new CategoryDAOImpl();
+	public CategoryDAOImpl() {}
+	public static CategoryDAOImpl getInstance() {return instance;}
+	
+	@Override
+	public void insertCategorie(CategoryDAO cat) {
+		try {
+			String sql = "";
+			DatabaseFactory
+			.createDatabase(Vendor.ORACLE)
+			.getConnection().prepareStatement("sql");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	@Override
+	public List<?> selectCategorieList(Proxy pagePxy) {
+		 List<?> list = new ArrayList<>();
+		
+		return list;
+	}
+	@Override
+	public List<CategoryDAO> selectCategorie(String searchWord) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public CategoryDAO selectCategories(String searchWord) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public int countCategorie() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public boolean existsCategorie(String searchword) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public void updateCategorie(CategoryDAO car) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void deleteCategorie(CategoryDAO car) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

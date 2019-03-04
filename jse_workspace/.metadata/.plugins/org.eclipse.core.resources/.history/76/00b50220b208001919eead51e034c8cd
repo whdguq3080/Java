@@ -1,0 +1,40 @@
+package bank33;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Random;
+
+public interface AccountService {
+	// 서비스 로직에는 멤버변수를 두지 않는다.
+	/***
+	 * CREATE
+	 */
+	public void createAccount();
+	public String accountNum();
+	public String today();
+
+	/***
+	 * READ
+	 */
+	
+	public AccountBean[] findAll();
+	public AccountBean[] findSome();
+	public AccountBean findOne();
+	public int count();
+	public boolean exist();
+	public String info(String accountNum,String today,int money,String name); //계좌정보 보여주기
+	/***
+	 * UPDATE
+	 */
+	public void update();
+	public String deposit(int money) ;
+	public String withdraw(int money) ;
+	/***
+	 * DELETE
+	 */
+	public void delete();
+	
+
+		
+			
+}

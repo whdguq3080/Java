@@ -1,0 +1,16 @@
+package dao;
+
+import java.util.List;
+
+import proxy.Proxy;
+
+public interface ProductDAO {
+	public void insertProduct(ProductDAO pro);
+	public List<ProductDAO> selectProductlist(Proxy pxy); 
+	public List<ProductDAO> selectProduct(String searchWord);
+	public ProductDAO selectProducts(String searchWord);
+	public int countProduct();
+	public boolean existsProduct(String searchword);
+	public void updateproduct(ProductDAO pro);
+	public void deleteproduct(ProductDAO pro);
+}

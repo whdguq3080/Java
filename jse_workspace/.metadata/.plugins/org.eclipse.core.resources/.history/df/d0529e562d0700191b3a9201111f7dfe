@@ -1,0 +1,43 @@
+package bank32;
+import javax.swing.JOptionPane;
+
+public class MemberSeviceImpl implements MemberService{
+	private MemberBean[] members;
+	
+	MemberSeviceImpl(){
+		members = new MemberBean[10];
+	}
+	
+	
+	@Override
+	public void join(String id, String name, String pass, String ssn) {
+		MemberBean member = new MemberBean();
+		member.setId(id);
+		member.setName(name);
+		member.setPass(pass);
+		member.setSsn(ssn);
+		for(int i =0; i<members.length; i++) {
+			members[i]= member;
+		}
+	}
+
+	@Override
+	public void login() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

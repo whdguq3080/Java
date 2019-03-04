@@ -1,0 +1,28 @@
+package bank31;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Random;
+
+public interface AccountService {
+	// 서비스 로직에는 멤버변수를 두지 않는다.
+	public String accountNum();
+
+	/*
+	 * 오늘 날짜 구하기
+	 */
+	public String today();
+	/*
+	 * 계좌정보 보여주기
+	 */
+
+	public String info(String accountNum,String today,int money,String name);
+
+	return String.format("은행이름 %s\n"+"날짜 %s\n"+"이 름%s\n"+"계좌번호%s\n"+"잔 액%s",AccountBean.BANK_NAME,today,name,accountNum,money);
+
+	public String deposit(int money);
+
+	public String withdraw(int money);
+			
+}
+

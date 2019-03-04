@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="212" key="DIALOG_X_ORIGIN"/>
+		<item value="310" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="=&gt;" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="function"/>
+			<item value="this."/>
+			<item value="container-fluid"/>
+			<item value=".container-fluid"/>
+			<item value="&lt;span class=&quot;input-group-addon&quot; id=&quot;basic-addon1&quot;&gt;아이디&lt;/span&gt;"/>
+			<item value="update"/>
+			<item value="customerID"/>
+			<item value="grid-reg_item"/>
+			<item value="item"/>
+			<item value="Customer"/>
+			<item value="customer"/>
+			<item value="EmployeeDAOImpl"/>
+			<item value="&#x09;&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;"/>
+			<item value="class"/>
+			<item value="menubar"/>
+		</list>
+		<list key="replacehistory">
+			<item value="=&gt;"/>
+			<item value="_"/>
+			<item value=""/>
+			<item value="grid_item"/>
+			<item value="reg_item"/>
+			<item value="Shipper"/>
+			<item value="Product"/>
+			<item value="product"/>
+			<item value="OrderDetail"/>
+			<item value="EmployeeServiceImpl"/>
+			<item value="id"/>
+			<item value="name-bar"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="288" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="390" key="DIALOG_HEIGHT"/>
+		<item value="971" key="DIALOG_X_ORIGIN"/>
+		<item value="178" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,69 @@
+
+1월 11, 2019 13:19:21.54 NEW SESSION
+1월 11, 2019 13:19:21.54 [3232:1096:0111/131921.543:ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+1월 11, 2019 13:22:27.58 [3232:1096:0111/132227.581:ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+1월 11, 2019 13:22:32.50 [3232:1096:0111/132232.507:ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+1월 11, 2019 13:22:33.21 [3232:1096:0111/132233.217:ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+
+1월 14, 2019 09:35:25.63 NEW SESSION
+1월 14, 2019 09:35:25.63 [3864:3220:0114/093525.618:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+1월 14, 2019 09:45:23.79 [3864:3220:0114/094523.792:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+1월 14, 2019 09:55:28.85 [3864:3220:0114/095528.858:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+1월 14, 2019 10:35:05.66 [3864:3220:0114/103505.665:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+1월 14, 2019 10:35:05.74 [3864:3220:0114/103505.747:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+1월 14, 2019 10:35:06.46 [3864:3220:0114/103506.465:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+1월 14, 2019 11:42:53.40 [3864:2512:0114/114253.403:ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+
+1월 25, 2019 09:51:54.29 NEW SESSION
+1월 25, 2019 09:51:54.29 [3908:4460:0125/095154.284:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+1월 25, 2019 10:57:34.13 [3908:4460:0125/105734.136:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+1월 25, 2019 11:02:12.60 [3908:4460:0125/110212.606:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+
+1월 29, 2019 11:14:35.34 NEW SESSION
+1월 29, 2019 11:14:35.34 [1732:984:0129/111435.325:ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+1월 29, 2019 11:41:23.43 [1732:3552:0129/114123.439:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+1월 29, 2019 12:33:48.15 [1732:3384:0129/123348.153:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+1월 29, 2019 12:34:01.34 [1732:1296:0129/123401.340:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+1월 29, 2019 14:25:55.19 [1732:3384:0129/142555.191:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+
+2월 07, 2019 20:11:29.49 NEW SESSION
+2월 07, 2019 20:11:29.49 [3904:524:0207/201129.494:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+2월 07, 2019 20:12:11.47 [3904:3768:0207/201211.470:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+
+2월 11, 2019 09:53:01.03 NEW SESSION
+2월 11, 2019 09:53:01.03 [524:1320:0211/095301.035:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 11, 2019 11:29:53.16 [524:1320:0211/112953.161:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 11, 2019 11:29:53.27 [524:1320:0211/112953.277:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 11, 2019 11:29:53.59 [524:1320:0211/112953.592:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+
+2월 12, 2019 09:33:07.91 NEW SESSION
+2월 12, 2019 09:33:07.91 [1400:3780:0212/093307.905:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+
+2월 14, 2019 09:46:52.44 NEW SESSION
+2월 14, 2019 09:46:52.44 [4264:4328:0214/094652.437:ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+2월 14, 2019 10:37:23.00 [4264:4268:0214/103723.007:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+
+2월 18, 2019 09:58:15.71 NEW SESSION
+2월 18, 2019 09:58:15.71 [3160:3416:0218/095815.707:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+
+2월 19, 2019 09:40:13.75 NEW SESSION
+2월 19, 2019 09:40:13.75 [5772:5900:0219/094013.749:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+
+2월 20, 2019 11:30:18.81 NEW SESSION
+2월 20, 2019 11:30:18.81 [3536:3840:0220/113018.803:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 11:33:23.56 [3536:3840:0220/113323.563:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 11:43:31.61 [3536:3840:0220/114331.617:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 11:53:33.66 [3536:3840:0220/115333.668:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 12:03:34.76 [3536:3840:0220/120334.760:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 14:04:03.26 [3536:3840:0220/140403.262:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 14:14:05.30 [3536:3840:0220/141405.308:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 14:24:09.35 [3536:3840:0220/142409.352:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 14:34:12.35 [3536:3840:0220/143412.355:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 14:44:14.39 [3536:3840:0220/144414.392:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 14:54:19.45 [3536:3840:0220/145419.455:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 15:44:31.64 [3536:3840:0220/154431.648:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 20, 2019 16:10:02.20 [3536:3680:0220/161002.201:ERROR:database.cc(1838)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+2월 22, 2019 11:41:39.19 NEW SESSION
+2월 22, 2019 11:41:39.20 [4052:412:0222/114139.196:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+2월 22, 2019 15:28:48.47 [4052:3156:0222/152848.470:ERROR:ssl_client_socket_impl.cc(964)] handshake failed; returned -1, SSL error code 1, net_error -101

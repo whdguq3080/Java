@@ -1,0 +1,18 @@
+package bank33;
+
+public interface MemberService {
+	//회원가입
+	public void join(String id,
+			String pass,
+			String name,
+			String ssn);
+	public MemberBean[] list();
+	// 로그인
+	public MemberBean find(String id) ;
+	
+	public boolean login(String id,String pass) ;
+	
+	public int count();
+
+	public void delete() ;
+}
